@@ -10,9 +10,9 @@ N: Node JS	-> Base Server, to rollout React/Express Js containers
 Steps:
 --------------------------------------------------------------------------------------------------------------------------------------------
 1. Prepare the Container images for reactJs, ExpressJs
-2. Run the command to rollout the containers
+2. Run the docker compose file to rollout the MERN Stack.
 	docker-compose up
-3. open the browser and check the url.
+3. Open the browser and check the url.
 	http://localhost:3000
 4. Once you're done with your tasks, you can remove the containers.
 	docker-compose down
