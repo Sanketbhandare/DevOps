@@ -1,0 +1,23 @@
+FROM node:14-slim
+
+WORKDIR /usr/src/app
+
+ENV registry http://registry.npmjs.org/
+ENV http_proxy http://rb-proxy-apac.bosch.com:8080
+ENV https_proxy http://rb-proxy-apac.bosch.com:8080
+
+COPY ./package.json ./
+COPY ./yarn.lock ./
+
+RUN npm config set proxy http://rb-proxy-apac.bosch.com:8080
+RUN npm config set https-proxy http://rb-proxy-apac.bosch.com:8080 
+RUN npm config set registry http://registry.npmjs.org/
+RUN npx browserslist --update-db 
+
+RUN yarn install
+
+COPY . .
+
+EXPOSE 3000
+
+CMD ["yarn","start"]
