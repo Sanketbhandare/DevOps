@@ -1,25 +1,22 @@
-## Welcome to GitHub Pages
+## Welcome to DevOps Repository 🦖
 
-You can use the [editor on GitHub](https://github.com/Sanketbhandare/DevOps/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Motive behind this repository is to introduce variety of real life projects / tasks related to DevOps, MLOps and DevSecOps. Currently, exploring the various topics in DevOps and same knowledge will be shared across this repository. Contributions are always welcome and looking forward to collaborate on various topics.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Projects
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Projects are real life applications which demonstrate the use of DevOps tools. It includes the following projects.
 
 ```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### 1. LAMP Stack Installation on Linux Systems using Ansible
 
-- Bulleted
-- List
+### 2. MERN Stack Installation and Node.Js Application Deployment using Docker-Compose
 
-1. Numbered
-2. List
+### 3. MEAN Stack Installation and Node.Js Application Deployment using Docker-Compose
+
+### 4. MLFLow + MongoDB + Minio Deployment using Docker-Compose
+
 
 **Bold** and _Italic_ and `Code` text
 
